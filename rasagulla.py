@@ -16,7 +16,7 @@ try:
 		input()
 
 		# The current lap-time
-		laptime = round((time.time() - lasttime), 2)
+		laptime = round((time.time() - lasttime), 3)
 
 		# Total time elapsed
 		# since the timer started
